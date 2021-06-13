@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="src/css/index.css" />
   </head>
   <body>
-<audio autoplay>
-  <source src="src/music/happy.mp3" type="audio/mp3">
-</audio>
+    <iframe src="src/music/happy.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> 
+    <audio autoplay loop  id="playAudio">
+      <source src="src/music/happy.mp3">
+  </audio>
+
     <div class="first--slide">
       <div class="slide--content">
         <h1>hello</h1>
         <h2>Mbak Eva</h2>
-        <h1>This Is Arsyi</h1>
         <span class="top"></span>
         <span class="right"></span>
         <span class="bottom"></span>
