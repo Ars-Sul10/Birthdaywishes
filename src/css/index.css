@@ -593,7 +593,7 @@ body, html{
 .third--canvas .center--line{
 	position: absolute;
 	width:0%;
-	height:5px;
+	height: 20px;
 	background:#fff;
 	top:0;
 	bottom:0;
@@ -632,7 +632,7 @@ body, html{
 	color:#1080f2;
 	text-transform: uppercase;
 	margin:0;
-	font-size:5em;
+	font-size:4em;
 }
 
 .third--canvas .center--line h1 > span{
@@ -848,19 +848,29 @@ body, html{
   .continue:hover {
 	  background-color: #D32F2F !important
   }
-  .button4{ 
-	font-size: 25px;
-	font-family:courier;
-	background:#f00000;
-	color:#ffffff; 
-	padding: 15px 20px;
-	border: 2px solid #00f000;
-	border-radius: 8px;
-	box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
-	}
-	p {
-		font-size: 72px;
-	  }
-	q {
-		font-size: 64px;
-	  }
+  body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* Full viewport height */
+	background-color: #f8f9fa;
+	font-family: Arial, sans-serif;
+}
+  .btn {
+	display: inline-block;
+	padding: 20px 30px;
+	font-size: 1.2rem;
+	color: white;
+	background-color: #d1119e;
+	border-block-color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn:hover {
+	background-color: #0056b3;
+}
